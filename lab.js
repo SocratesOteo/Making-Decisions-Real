@@ -64,6 +64,14 @@ let rain = true
 */
 
 //CODE HERE
+if (temperature => 80 && rain === true ){
+  console.log('Its nice and sunny so no jacket today, but it want last for long bring an umbrella')
+
+} else if (temperature => 60 && temperature <= 80 && rain === true){
+  console.log('bring a rain jacket its going to rain')
+} else if (rain === false){
+  console.log('enjoy the sun')
+}
 
 
 ////////// PROBLEM 5 //////////
@@ -74,6 +82,12 @@ let rain = true
 
 //CODE HERE
 
+for(i = 0; i<10; i++){
+  if (i<10){
+    console.log('hello')
+  }
+}
+
 
 ////////// PROBLEM 6 //////////
 
@@ -82,6 +96,15 @@ let rain = true
 */
 
 //CODE HERE
+for(i = 1; i < 11; i++){
+  if (i<11){
+    console.log(i)
+   
+    
+  }
+ 
+
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -90,7 +113,16 @@ let rain = true
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
+
 //CODE HERE
+
+for (i = 10; i > 0; i--){
+  if (i > 0){
+    console.log(i)
+  
+  }
+}
+
 
 let score = 0
 let passingScore = 7
@@ -102,6 +134,14 @@ let passingScore = 7
 */
 
 //CODE HERE
+
+while (score < passingScore){
+  if(score < passingScore){
+    console.log('your score is not high enough')
+    score++
+  } 
+}
+
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
